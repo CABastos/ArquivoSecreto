@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:300);
+
+body {
+	margin: 0;
+	display: block;
+	background-image: url(../imagens/fundo.jpg);
+	background-size: cover;
+}
+.signin {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 3em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	background-color: #DCDCDC;
+	background: rgba(220,220,220,0.6);
+}
+h2 {
+	margin-top: 0;
+	font-family: Nunito;
+	font-weight: lighter;
+	color: black;
+	font-size: 3.5em;
+	text-align: center;
+	padding-top: 1em;
+}
+input {
+	display: block;
+	width: 22.8em;
+	height: 3.5em;
+	background: rgba(0,0,0,0.3);
+	outline: none;
+	border: 1px solid rgba(0,0,0,0.5);
+	font-family: Nunito;
+	font-weight: lighter;
+	font-size: 0.877em;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 5px;
+}
+input::placeholder {
+	color: black;
+	font-family: Nunito;
+}
+button {
+	width: 20.8em;
+	height: 3em;
+	font-size: 16px;
+	background: #0C5;
+	font-family: Nunito;
+	margin-top: 1em;
+	font-weight: lighter;
+	color: #fff;
+	border: 0;
+	border-radius: 5px;
+}
+#pin {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13em;
+	z-index: 1000;
+	margin-top: 4.7%;
+	position: relative;
+}
